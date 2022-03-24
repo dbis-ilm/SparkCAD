@@ -1,0 +1,195 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	2 [label="[2] " fillcolor=green style=filled]
+	0 [label="[0] " fillcolor=white style=filled]
+	1 [label="[1] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	2 -> Action_0 [arrowhead=none color=black style=dashed]
+	5 [label="[5] " fillcolor=white style=filled]
+	31 [label="[31] " fillcolor=white style=filled]
+	11 [label="[11] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	29 [label="[29] " fillcolor=green style=filled]
+	15 [label="[15] " fillcolor=green style=filled]
+	28 [label="[28] " fillcolor=white style=filled]
+	6 [label="[6] " fillcolor=white style=filled]
+	8 [label="[8] " fillcolor=white style=filled]
+	7 [label="[7] " fillcolor=white style=filled]
+	19 [label="[19] " fillcolor=white style=filled]
+	17 [label="[17] " fillcolor=white style=filled]
+	23 [label="[23] " fillcolor=white style=filled]
+	27 [label="[27] " fillcolor=white style=filled]
+	20 [label="[20] " fillcolor=white style=filled]
+	25 [label="[25] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	24 [label="[24] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	21 [label="[21] " fillcolor=green style=filled]
+	13 [label="[13] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	31 -> Action_1 [arrowhead=none color=black style=dashed]
+	44 [label="[44] " fillcolor=white style=filled]
+	38 [label="[38] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	41 [label="[41] " fillcolor=white style=filled]
+	37 [label="[37] " fillcolor=white style=filled]
+	42 [label="[42] " fillcolor=white style=filled]
+	48 [label="[48] " fillcolor=white style=filled]
+	45 [label="[45] " fillcolor=white style=filled]
+	46 [label="[46] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	32 [label="[32] " fillcolor=green style=filled]
+	40 [label="[40] " fillcolor=white style=filled]
+	36 [label="[36] " fillcolor=white style=filled]
+	34 [label="[34] " fillcolor=white style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	48 -> Action_2 [arrowhead=none color=black style=dashed]
+	55 [label="[55] " fillcolor=white style=filled]
+	53 [label="[53] " fillcolor=white style=filled]
+	54 [label="[54] " fillcolor=white style=filled]
+	52 [label="[52] " fillcolor=white style=filled]
+	33 [label="[33] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	51 [label="[51] " fillcolor=white style=filled]
+	50 [label="[50] " fillcolor=white style=filled]
+	49 [label="[49] " fillcolor=white style=filled]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	55 -> Action_3 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 5 [color=black]
+	5 -> 6 [color=red]
+	6 -> 7 [color=black]
+	7 -> 8 [color=black]
+	8 -> 11 [color=black]
+	2 -> 13 [color=black]
+	11 -> 15 [color=black]
+	11 -> 17 [color=black]
+	15 -> 17 [color=black]
+	17 -> 19 [color=black]
+	19 -> 20 [color=red]
+	13 -> 21 [color=black]
+	20 -> 21 [color=black]
+	15 -> 23 [color=black]
+	23 -> 24 [color=red]
+	21 -> 25 [color=black]
+	24 -> 25 [color=black]
+	25 -> 27 [color=black]
+	27 -> 28 [color=red]
+	28 -> 29 [color=black]
+	15 -> 29 [color=black]
+	29 -> 31 [color=black]
+	15 -> 32 [color=black]
+	29 -> 32 [color=black]
+	32 -> 33 [color=black]
+	15 -> 34 [color=black]
+	32 -> 34 [color=black]
+	34 -> 36 [color=black]
+	36 -> 37 [color=red]
+	37 -> 38 [color=black]
+	25 -> 38 [color=black]
+	29 -> 40 [color=black]
+	40 -> 41 [color=red]
+	38 -> 42 [color=black]
+	41 -> 42 [color=black]
+	42 -> 44 [color=black]
+	44 -> 45 [color=red]
+	32 -> 46 [color=black]
+	45 -> 46 [color=black]
+	46 -> 48 [color=black]
+	49 -> 50 [color=black]
+	50 -> 51 [color=black]
+	33 -> 52 [color=black]
+	51 -> 52 [color=red]
+	52 -> 53 [color=black]
+	53 -> 54 [color=black]
+	54 -> 55 [color=black]
+	caching_plan [label="
+Recommended Schedule:
+
+Cache RDD[2] at stage(0) in job(0)
+
+Cache RDD[15] at stage(2) in job(1)
+
+Cache RDD[11] at stage(2) in job(1)
+
+Cache RDD[13] at stage(4) in job(1)
+
+Cache RDD[21] at stage(4) in job(1)
+
+Unpersist RDD[13] after stage(4) in job(1)
+
+Unpersist RDD[2] after stage(4) in job(1)
+
+Cache RDD[29] at stage(5) in job(1)
+
+Unpersist RDD[11] after stage(5) in job(1)
+
+Cache RDD[32] at stage(11) in job(2)
+
+Cache RDD[38] at stage(12) in job(2)
+
+Unpersist RDD[38] after stage(12) in job(2)
+
+Unpersist RDD[21] after stage(12) in job(2)
+
+Cache RDD[46] at stage(13) in job(2)
+
+Unpersist RDD[46] after stage(13) in job(2)
+
+Unpersist RDD[29] after stage(13) in job(2)
+
+Unpersist RDD[15] after stage(13) in job(2)
+
+Cache RDD[33] at stage(19) in job(3)
+
+Unpersist RDD[33] after stage(19) in job(3)
+
+Unpersist RDD[32] after stage(19) in job(3)
+
+" fillcolor=lightgray shape=note style=filled]
+	memory_footprint [label="
+Memory Footprint:
+
+{2}
+
+{2, 15}
+
+{2, 11, 15}
+
+{2, 11, 13, 15}
+
+{2, 21, 11, 13, 15}
+
+{2, 11, 21, 15}
+
+{11, 21, 15}
+
+{29, 11, 21, 15}
+
+{29, 21, 15}
+
+{32, 29, 21, 15}
+
+{32, 21, 38, 29, 15}
+
+{32, 29, 21, 15}
+
+{32, 29, 15}
+
+{32, 29, 46, 15}
+
+{32, 29, 15}
+
+{32, 15}
+
+{32}
+
+{32, 33}
+
+{32}
+
+Free
+
+" fillcolor=lightgray shape=note style=filled]
+	labelloc=t
+	label="ConnectedComponentsExample$"
+	fontsize=40
+}

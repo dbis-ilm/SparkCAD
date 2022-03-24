@@ -1,0 +1,643 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	15 [label="[15] " fillcolor=white style=filled]
+	1 [label="[1] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	13 [label="[13] " fillcolor=green style=filled]
+	0 [label="[0] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	2 [label="[2] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	3 [label="[3] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	15 -> Action_0 [arrowhead=none color=black style=dashed]
+	16 [label="[16] " fillcolor=white style=filled]
+	24 [label="[24] " fillcolor=white style=filled]
+	10 [label="[10] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	9 [label="[9] " fillcolor=white style=filled]
+	18 [label="[18] " fillcolor=white style=filled]
+	8 [label="[8] " fillcolor=white style=filled]
+	17 [label="[17] " fillcolor=white style=filled]
+	20 [label="[20] " fillcolor=green style=filled]
+	6 [label="[6] " fillcolor=white style=filled]
+	7 [label="[7] " fillcolor=white style=filled]
+	38 [label="[38] " fillcolor=white style=filled]
+	22 [label="[22] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	28 [label="[28] " fillcolor=white style=filled]
+	26 [label="[26] " fillcolor=white style=filled]
+	36 [label="[36] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	35 [label="[35] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	32 [label="[32] " fillcolor=green style=filled]
+	25 [label="[25] " fillcolor=white style=filled]
+	46 [label="[46] " fillcolor=white style=filled]
+	42 [label="[42] " fillcolor=green style=filled]
+	39 [label="[39] " fillcolor=white style=filled]
+	44 [label="[44] " fillcolor=white style=filled]
+	30 [label="[30] " fillcolor=green style=filled]
+	40 [label="[40] " fillcolor=white style=filled]
+	34 [label="[34] " fillcolor=white style=filled]
+	49 [label="[49] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	47 [label="[47] " fillcolor=white style=filled]
+	48 [label="[48] " fillcolor=green style=filled]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	49 -> Action_1 [arrowhead=none color=black style=dashed]
+	50 [label="[50] " fillcolor=white style=filled]
+	58 [label="[58] " fillcolor=white style=filled]
+	54 [label="[54] " fillcolor=green style=filled]
+	56 [label="[56] " fillcolor=white style=filled]
+	51 [label="[51] " fillcolor=white style=filled]
+	52 [label="[52] " fillcolor=white style=filled]
+	61 [label="[61] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	59 [label="[59] " fillcolor=white style=filled]
+	60 [label="[60] " fillcolor=green style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	61 -> Action_2 [arrowhead=none color=black style=dashed]
+	73 [label="[73] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	71 [label="[71] " fillcolor=white style=filled]
+	72 [label="[72] " fillcolor=green style=filled]
+	62 [label="[62] " fillcolor=white style=filled]
+	70 [label="[70] " fillcolor=white style=filled]
+	64 [label="[64] " fillcolor=white style=filled]
+	66 [label="[66] " fillcolor=green style=filled]
+	63 [label="[63] " fillcolor=white style=filled]
+	68 [label="[68] " fillcolor=white style=filled]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	73 -> Action_3 [arrowhead=none color=black style=dashed]
+	74 [label="[74] " fillcolor=white style=filled]
+	82 [label="[82] " fillcolor=white style=filled]
+	80 [label="[80] " fillcolor=white style=filled]
+	78 [label="[78] " fillcolor=green style=filled]
+	75 [label="[75] " fillcolor=white style=filled]
+	76 [label="[76] " fillcolor=white style=filled]
+	85 [label="[85] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	83 [label="[83] " fillcolor=white style=filled]
+	84 [label="[84] " fillcolor=green style=filled]
+	Action_4 [label="[4]" fillcolor=lightblue shape=circle style=filled]
+	85 -> Action_4 [arrowhead=none color=black style=dashed]
+	97 [label="[97] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	96 [label="[96] " fillcolor=green style=filled]
+	95 [label="[95] " fillcolor=white style=filled]
+	86 [label="[86] " fillcolor=white style=filled]
+	94 [label="[94] " fillcolor=white style=filled]
+	87 [label="[87] " fillcolor=white style=filled]
+	88 [label="[88] " fillcolor=white style=filled]
+	90 [label="[90] " fillcolor=green style=filled]
+	92 [label="[92] " fillcolor=white style=filled]
+	Action_5 [label="[5]" fillcolor=lightblue shape=circle style=filled]
+	97 -> Action_5 [arrowhead=none color=black style=dashed]
+	98 [label="[98] " fillcolor=white style=filled]
+	106 [label="[106] " fillcolor=white style=filled]
+	99 [label="[99] " fillcolor=white style=filled]
+	102 [label="[102] " fillcolor=green style=filled]
+	100 [label="[100] " fillcolor=white style=filled]
+	104 [label="[104] " fillcolor=white style=filled]
+	109 [label="[109] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	108 [label="[108] " fillcolor=green style=filled]
+	107 [label="[107] " fillcolor=white style=filled]
+	Action_6 [label="[6]" fillcolor=lightblue shape=circle style=filled]
+	109 -> Action_6 [arrowhead=none color=black style=dashed]
+	110 [label="[110] " fillcolor=white style=filled]
+	118 [label="[118] " fillcolor=white style=filled]
+	112 [label="[112] " fillcolor=white style=filled]
+	111 [label="[111] " fillcolor=white style=filled]
+	114 [label="[114] " fillcolor=green style=filled]
+	116 [label="[116] " fillcolor=white style=filled]
+	121 [label="[121] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	120 [label="[120] " fillcolor=green style=filled]
+	119 [label="[119] " fillcolor=white style=filled]
+	Action_7 [label="[7]" fillcolor=lightblue shape=circle style=filled]
+	121 -> Action_7 [arrowhead=none color=black style=dashed]
+	122 [label="[122] " fillcolor=white style=filled]
+	130 [label="[130] " fillcolor=white style=filled]
+	128 [label="[128] " fillcolor=white style=filled]
+	126 [label="[126] " fillcolor=green style=filled]
+	124 [label="[124] " fillcolor=white style=filled]
+	123 [label="[123] " fillcolor=white style=filled]
+	133 [label="[133] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	132 [label="[132] " fillcolor=green style=filled]
+	131 [label="[131] " fillcolor=white style=filled]
+	Action_8 [label="[8]" fillcolor=lightblue shape=circle style=filled]
+	133 -> Action_8 [arrowhead=none color=black style=dashed]
+	134 [label="[134] " fillcolor=white style=filled]
+	142 [label="[142] " fillcolor=white style=filled]
+	135 [label="[135] " fillcolor=white style=filled]
+	136 [label="[136] " fillcolor=white style=filled]
+	140 [label="[140] " fillcolor=white style=filled]
+	138 [label="[138] " fillcolor=green style=filled]
+	145 [label="[145] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	144 [label="[144] " fillcolor=green style=filled]
+	143 [label="[143] " fillcolor=white style=filled]
+	Action_9 [label="[9]" fillcolor=lightblue shape=circle style=filled]
+	145 -> Action_9 [arrowhead=none color=black style=dashed]
+	146 [label="[146] " fillcolor=white style=filled]
+	154 [label="[154] " fillcolor=white style=filled]
+	148 [label="[148] " fillcolor=white style=filled]
+	152 [label="[152] " fillcolor=white style=filled]
+	147 [label="[147] " fillcolor=white style=filled]
+	150 [label="[150] " fillcolor=green style=filled]
+	157 [label="[157] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	155 [label="[155] " fillcolor=white style=filled]
+	156 [label="[156] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	Action_10 [label="[10]" fillcolor=lightblue shape=circle style=filled]
+	157 -> Action_10 [arrowhead=none color=black style=dashed]
+	158 [label="[158] " fillcolor=white style=filled]
+	151 [label="[151] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	Action_11 [label="[11]" fillcolor=lightblue shape=circle style=filled]
+	158 -> Action_11 [arrowhead=none color=black style=dashed]
+	159 [label="[159] " fillcolor=white style=filled]
+	Action_12 [label="[12]" fillcolor=lightblue shape=circle style=filled]
+	159 -> Action_12 [arrowhead=none color=black style=dashed]
+	168 [label="[168] " fillcolor=white style=filled]
+	160 [label="[160] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	161 [label="[161] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	Action_13 [label="[13]" fillcolor=lightblue shape=circle style=filled]
+	168 -> Action_13 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	1 -> 6 [color=red]
+	3 -> 7 [color=black]
+	7 -> 8 [color=red]
+	8 -> 9 [color=black]
+	9 -> 10 [color=black]
+	6 -> 10 [color=black]
+	3 -> 13 [color=black]
+	13 -> 15 [color=black]
+	13 -> 16 [color=black]
+	16 -> 17 [color=red]
+	17 -> 18 [color=black]
+	10 -> 18 [color=black]
+	18 -> 20 [color=black]
+	10 -> 20 [color=black]
+	13 -> 22 [color=black]
+	20 -> 24 [color=black]
+	24 -> 25 [color=red]
+	22 -> 26 [color=black]
+	25 -> 26 [color=black]
+	26 -> 28 [color=black]
+	20 -> 30 [color=black]
+	28 -> 32 [color=black]
+	30 -> 34 [color=black]
+	34 -> 35 [color=red]
+	32 -> 36 [color=black]
+	35 -> 36 [color=black]
+	36 -> 38 [color=black]
+	38 -> 39 [color=red]
+	39 -> 40 [color=black]
+	30 -> 40 [color=black]
+	40 -> 42 [color=black]
+	30 -> 42 [color=black]
+	42 -> 44 [color=black]
+	30 -> 44 [color=black]
+	44 -> 46 [color=black]
+	46 -> 47 [color=red]
+	36 -> 48 [color=black]
+	47 -> 48 [color=black]
+	48 -> 49 [color=black]
+	48 -> 50 [color=black]
+	50 -> 51 [color=red]
+	42 -> 52 [color=black]
+	51 -> 52 [color=black]
+	42 -> 54 [color=black]
+	52 -> 54 [color=black]
+	42 -> 56 [color=black]
+	54 -> 56 [color=black]
+	56 -> 58 [color=black]
+	58 -> 59 [color=red]
+	59 -> 60 [color=black]
+	48 -> 60 [color=black]
+	60 -> 61 [color=black]
+	60 -> 62 [color=black]
+	62 -> 63 [color=red]
+	54 -> 64 [color=black]
+	63 -> 64 [color=black]
+	64 -> 66 [color=black]
+	54 -> 66 [color=black]
+	54 -> 68 [color=black]
+	66 -> 68 [color=black]
+	68 -> 70 [color=black]
+	70 -> 71 [color=red]
+	71 -> 72 [color=black]
+	60 -> 72 [color=black]
+	72 -> 73 [color=black]
+	72 -> 74 [color=black]
+	74 -> 75 [color=red]
+	75 -> 76 [color=black]
+	66 -> 76 [color=black]
+	66 -> 78 [color=black]
+	76 -> 78 [color=black]
+	66 -> 80 [color=black]
+	78 -> 80 [color=black]
+	80 -> 82 [color=black]
+	82 -> 83 [color=red]
+	83 -> 84 [color=black]
+	72 -> 84 [color=black]
+	84 -> 85 [color=black]
+	84 -> 86 [color=black]
+	86 -> 87 [color=red]
+	87 -> 88 [color=black]
+	78 -> 88 [color=black]
+	78 -> 90 [color=black]
+	88 -> 90 [color=black]
+	78 -> 92 [color=black]
+	90 -> 92 [color=black]
+	92 -> 94 [color=black]
+	94 -> 95 [color=red]
+	84 -> 96 [color=black]
+	95 -> 96 [color=black]
+	96 -> 97 [color=black]
+	96 -> 98 [color=black]
+	98 -> 99 [color=red]
+	99 -> 100 [color=black]
+	90 -> 100 [color=black]
+	90 -> 102 [color=black]
+	100 -> 102 [color=black]
+	90 -> 104 [color=black]
+	102 -> 104 [color=black]
+	104 -> 106 [color=black]
+	106 -> 107 [color=red]
+	96 -> 108 [color=black]
+	107 -> 108 [color=black]
+	108 -> 109 [color=black]
+	108 -> 110 [color=black]
+	110 -> 111 [color=red]
+	102 -> 112 [color=black]
+	111 -> 112 [color=black]
+	102 -> 114 [color=black]
+	112 -> 114 [color=black]
+	102 -> 116 [color=black]
+	114 -> 116 [color=black]
+	116 -> 118 [color=black]
+	118 -> 119 [color=red]
+	119 -> 120 [color=black]
+	108 -> 120 [color=black]
+	120 -> 121 [color=black]
+	120 -> 122 [color=black]
+	122 -> 123 [color=red]
+	114 -> 124 [color=black]
+	123 -> 124 [color=black]
+	114 -> 126 [color=black]
+	124 -> 126 [color=black]
+	114 -> 128 [color=black]
+	126 -> 128 [color=black]
+	128 -> 130 [color=black]
+	130 -> 131 [color=red]
+	131 -> 132 [color=black]
+	120 -> 132 [color=black]
+	132 -> 133 [color=black]
+	132 -> 134 [color=black]
+	134 -> 135 [color=red]
+	135 -> 136 [color=black]
+	126 -> 136 [color=black]
+	126 -> 138 [color=black]
+	136 -> 138 [color=black]
+	126 -> 140 [color=black]
+	138 -> 140 [color=black]
+	140 -> 142 [color=black]
+	142 -> 143 [color=red]
+	132 -> 144 [color=black]
+	143 -> 144 [color=black]
+	144 -> 145 [color=black]
+	144 -> 146 [color=black]
+	146 -> 147 [color=red]
+	138 -> 148 [color=black]
+	147 -> 148 [color=black]
+	138 -> 150 [color=black]
+	148 -> 150 [color=black]
+	150 -> 151 [color=black]
+	150 -> 152 [color=black]
+	138 -> 152 [color=black]
+	152 -> 154 [color=black]
+	154 -> 155 [color=red]
+	155 -> 156 [color=black]
+	144 -> 156 [color=black]
+	156 -> 157 [color=black]
+	151 -> 158 [color=black]
+	150 -> 159 [color=black]
+	150 -> 160 [color=black]
+	160 -> 161 [color=black]
+	161 -> 168 [color=black]
+	caching_plan [label="
+Recommended Schedule:
+
+Cache RDD[13] at stage(0) in job(0)
+
+Cache RDD[10] at stage(4) in job(1)
+
+Cache RDD[20] at stage(4) in job(1)
+
+Cache RDD[30] at stage(4) in job(1)
+
+Unpersist RDD[10] after stage(5) in job(1)
+
+Unpersist RDD[20] after stage(5) in job(1)
+
+Cache RDD[22] at stage(6) in job(1)
+
+Cache RDD[32] at stage(6) in job(1)
+
+Unpersist RDD[22] after stage(6) in job(1)
+
+Unpersist RDD[13] after stage(6) in job(1)
+
+Cache RDD[42] at stage(7) in job(1)
+
+Unpersist RDD[30] after stage(7) in job(1)
+
+Cache RDD[48] at stage(8) in job(1)
+
+Cache RDD[49] at stage(8) in job(1)
+
+Unpersist RDD[49] after stage(8) in job(1)
+
+Unpersist RDD[32] after stage(8) in job(1)
+
+Cache RDD[54] at stage(17) in job(2)
+
+Unpersist RDD[42] after stage(17) in job(2)
+
+Cache RDD[60] at stage(18) in job(2)
+
+Cache RDD[61] at stage(18) in job(2)
+
+Unpersist RDD[61] after stage(18) in job(2)
+
+Unpersist RDD[48] after stage(18) in job(2)
+
+Cache RDD[66] at stage(29) in job(3)
+
+Unpersist RDD[54] after stage(29) in job(3)
+
+Cache RDD[72] at stage(30) in job(3)
+
+Cache RDD[73] at stage(30) in job(3)
+
+Unpersist RDD[73] after stage(30) in job(3)
+
+Unpersist RDD[60] after stage(30) in job(3)
+
+Cache RDD[78] at stage(43) in job(4)
+
+Unpersist RDD[66] after stage(43) in job(4)
+
+Cache RDD[84] at stage(44) in job(4)
+
+Cache RDD[85] at stage(44) in job(4)
+
+Unpersist RDD[85] after stage(44) in job(4)
+
+Unpersist RDD[72] after stage(44) in job(4)
+
+Cache RDD[90] at stage(59) in job(5)
+
+Unpersist RDD[78] after stage(59) in job(5)
+
+Cache RDD[96] at stage(60) in job(5)
+
+Cache RDD[97] at stage(60) in job(5)
+
+Unpersist RDD[97] after stage(60) in job(5)
+
+Unpersist RDD[84] after stage(60) in job(5)
+
+Cache RDD[102] at stage(77) in job(6)
+
+Unpersist RDD[90] after stage(77) in job(6)
+
+Cache RDD[108] at stage(78) in job(6)
+
+Cache RDD[109] at stage(78) in job(6)
+
+Unpersist RDD[109] after stage(78) in job(6)
+
+Unpersist RDD[96] after stage(78) in job(6)
+
+Cache RDD[114] at stage(97) in job(7)
+
+Unpersist RDD[102] after stage(97) in job(7)
+
+Cache RDD[120] at stage(98) in job(7)
+
+Cache RDD[121] at stage(98) in job(7)
+
+Unpersist RDD[121] after stage(98) in job(7)
+
+Unpersist RDD[108] after stage(98) in job(7)
+
+Cache RDD[126] at stage(119) in job(8)
+
+Unpersist RDD[114] after stage(119) in job(8)
+
+Cache RDD[132] at stage(120) in job(8)
+
+Cache RDD[133] at stage(120) in job(8)
+
+Unpersist RDD[133] after stage(120) in job(8)
+
+Unpersist RDD[120] after stage(120) in job(8)
+
+Cache RDD[138] at stage(143) in job(9)
+
+Unpersist RDD[126] after stage(143) in job(9)
+
+Cache RDD[144] at stage(144) in job(9)
+
+Cache RDD[145] at stage(144) in job(9)
+
+Unpersist RDD[145] after stage(144) in job(9)
+
+Unpersist RDD[132] after stage(144) in job(9)
+
+Cache RDD[150] at stage(169) in job(10)
+
+Unpersist RDD[138] after stage(169) in job(10)
+
+Cache RDD[156] at stage(170) in job(10)
+
+Cache RDD[157] at stage(170) in job(10)
+
+Unpersist RDD[156] after stage(170) in job(10)
+
+Unpersist RDD[157] after stage(170) in job(10)
+
+Unpersist RDD[144] after stage(170) in job(10)
+
+Cache RDD[151] at stage(195) in job(11)
+
+Unpersist RDD[151] after stage(195) in job(11)
+
+Cache RDD[160] at stage(245) in job(13)
+
+Cache RDD[161] at stage(245) in job(13)
+
+Unpersist RDD[160] after stage(245) in job(13)
+
+Unpersist RDD[161] after stage(245) in job(13)
+
+Unpersist RDD[150] after stage(245) in job(13)
+
+" fillcolor=lightgray shape=note style=filled]
+	memory_footprint [label="
+Memory Footprint:
+
+{13}
+
+{10, 13}
+
+{10, 20, 13}
+
+{10, 20, 13, 30}
+
+{20, 13, 30}
+
+{13, 30}
+
+{13, 22, 30}
+
+{32, 13, 22, 30}
+
+{32, 13, 30}
+
+{32, 30}
+
+{32, 42, 30}
+
+{32, 42}
+
+{32, 48, 42}
+
+{32, 49, 48, 42}
+
+{32, 48, 42}
+
+{48, 42}
+
+{48, 42, 54}
+
+{48, 54}
+
+{48, 60, 54}
+
+{48, 60, 61, 54}
+
+{48, 60, 54}
+
+{60, 54}
+
+{66, 60, 54}
+
+{66, 60}
+
+{72, 66, 60}
+
+{72, 73, 66, 60}
+
+{72, 66, 60}
+
+{72, 66}
+
+{72, 66, 78}
+
+{72, 78}
+
+{72, 84, 78}
+
+{72, 84, 85, 78}
+
+{72, 84, 78}
+
+{84, 78}
+
+{90, 84, 78}
+
+{90, 84}
+
+{96, 90, 84}
+
+{96, 97, 90, 84}
+
+{96, 90, 84}
+
+{96, 90}
+
+{96, 90, 102}
+
+{96, 102}
+
+{96, 108, 102}
+
+{96, 108, 109, 102}
+
+{96, 108, 102}
+
+{108, 102}
+
+{114, 108, 102}
+
+{114, 108}
+
+{120, 114, 108}
+
+{120, 121, 114, 108}
+
+{120, 114, 108}
+
+{120, 114}
+
+{120, 114, 126}
+
+{120, 126}
+
+{120, 132, 126}
+
+{120, 132, 133, 126}
+
+{120, 132, 126}
+
+{132, 126}
+
+{138, 132, 126}
+
+{138, 132}
+
+{144, 138, 132}
+
+{144, 145, 138, 132}
+
+{144, 138, 132}
+
+{144, 138}
+
+{144, 138, 150}
+
+{144, 150}
+
+{144, 156, 150}
+
+{144, 156, 157, 150}
+
+{144, 157, 150}
+
+{144, 150}
+
+{150}
+
+{150, 151}
+
+{150}
+
+{160, 150}
+
+{160, 161, 150}
+
+{161, 150}
+
+{150}
+
+Free
+
+" fillcolor=lightgray shape=note style=filled]
+	labelloc=t
+	label="GraphX Synth Benchmark (nverts = 100000, app = pagerank)"
+	fontsize=40
+}
