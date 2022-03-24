@@ -1,0 +1,24 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	3 [label="[3] " fillcolor=white style=filled]
+	0 [label="[0] " fillcolor=white style=filled]
+	2 [label="[2] " fillcolor=white style=filled]
+	1 [label="[1] " fillcolor=white style=filled]
+	6 [label="[6] " fillcolor=white style=filled]
+	5 [label="[5] " fillcolor=white style=filled]
+	4 [label="[4] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	6 -> Action_0 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	3 -> 4 [color=red]
+	4 -> 5 [color=black]
+	5 -> 6 [color=black]
+	labelloc=t
+	label=VarianceThresholdSelectorExample
+	fontsize=40
+}

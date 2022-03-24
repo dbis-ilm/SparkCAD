@@ -1,0 +1,19 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	0 [label="[0] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	0 -> Action_0 [arrowhead=none color=black style=dashed]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	0 -> Action_1 [arrowhead=none color=black style=dashed]
+	1 [label="[1] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	1 -> Action_2 [arrowhead=none color=black style=dashed]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	1 -> Action_3 [arrowhead=none color=black style=dashed]
+	labelloc=t
+	label=RandomRDDGeneration
+	fontsize=40
+}

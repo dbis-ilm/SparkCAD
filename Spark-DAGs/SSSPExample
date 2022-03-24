@@ -1,0 +1,251 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	1 [label="[1] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	0 [label="[0] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	7 [label="[7] " fillcolor=white style=filled]
+	3 [label="[3] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	2 [label="[2] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	37 [label="[37] " fillcolor=white style=filled]
+	35 [label="[35] " fillcolor=green style=filled]
+	9 [label="[9] " fillcolor=white style=filled]
+	34 [label="[34] " fillcolor=white style=filled]
+	21 [label="[21] " fillcolor=green style=filled]
+	8 [label="[8] " fillcolor=white style=filled]
+	6 [label="[6] " fillcolor=white style=filled]
+	10 [label="[10] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	17 [label="[17] " fillcolor=green style=filled]
+	29 [label="[29] " fillcolor=white style=filled]
+	25 [label="[25] " fillcolor=white style=filled]
+	23 [label="[23] " fillcolor=white style=filled]
+	33 [label="[33] " fillcolor=white style=filled]
+	26 [label="[26] " fillcolor=white style=filled]
+	27 [label="[27] " fillcolor=green style=filled]
+	19 [label="[19] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	31 [label="[31] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	13 [label="[13] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	30 [label="[30] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	15 [label="[15] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	37 -> Action_0 [arrowhead=none color=black style=dashed]
+	42 [label="[42] " fillcolor=white style=filled]
+	40 [label="[40] " fillcolor=white style=filled]
+	38 [label="[38] " fillcolor=green style=filled]
+	50 [label="[50] " fillcolor=white style=filled]
+	47 [label="[47] " fillcolor=white style=filled]
+	44 [label="[44] " fillcolor=green style=filled]
+	43 [label="[43] " fillcolor=white style=filled]
+	48 [label="[48] " fillcolor=white style=filled]
+	54 [label="[54] " fillcolor=white style=filled]
+	51 [label="[51] " fillcolor=white style=filled]
+	52 [label="[52] " fillcolor=green style=filled]
+	46 [label="[46] " fillcolor=white style=filled]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	54 -> Action_1 [arrowhead=none color=black style=dashed]
+	63 [label="[63] " fillcolor=white style=filled]
+	67 [label="[67] " fillcolor=white style=filled]
+	60 [label="[60] " fillcolor=white style=filled]
+	61 [label="[61] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	65 [label="[65] " fillcolor=white style=filled]
+	64 [label="[64] " fillcolor=white style=filled]
+	71 [label="[71] " fillcolor=white style=filled]
+	69 [label="[69] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	68 [label="[68] " fillcolor=white style=filled]
+	55 [label="[55] " fillcolor=green style=filled]
+	59 [label="[59] " fillcolor=white style=filled]
+	57 [label="[57] " fillcolor=white style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	71 -> Action_2 [arrowhead=none color=black style=dashed]
+	56 [label="[56] " color=red fillcolor=green penwidth=3 shape=cylinder style=filled]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	56 -> Action_3 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	1 -> 6 [color=red]
+	3 -> 7 [color=black]
+	7 -> 8 [color=red]
+	8 -> 9 [color=black]
+	9 -> 10 [color=black]
+	6 -> 10 [color=black]
+	3 -> 13 [color=black]
+	13 -> 15 [color=black]
+	10 -> 17 [color=black]
+	15 -> 19 [color=black]
+	17 -> 21 [color=black]
+	21 -> 23 [color=black]
+	17 -> 23 [color=black]
+	23 -> 25 [color=black]
+	25 -> 26 [color=red]
+	26 -> 27 [color=black]
+	19 -> 27 [color=black]
+	21 -> 29 [color=black]
+	29 -> 30 [color=red]
+	27 -> 31 [color=black]
+	30 -> 31 [color=black]
+	31 -> 33 [color=black]
+	33 -> 34 [color=red]
+	34 -> 35 [color=black]
+	21 -> 35 [color=black]
+	35 -> 37 [color=black]
+	35 -> 38 [color=black]
+	21 -> 38 [color=black]
+	38 -> 40 [color=black]
+	21 -> 40 [color=black]
+	40 -> 42 [color=black]
+	42 -> 43 [color=red]
+	43 -> 44 [color=black]
+	31 -> 44 [color=black]
+	35 -> 46 [color=black]
+	46 -> 47 [color=red]
+	44 -> 48 [color=black]
+	47 -> 48 [color=black]
+	48 -> 50 [color=black]
+	50 -> 51 [color=red]
+	38 -> 52 [color=black]
+	51 -> 52 [color=black]
+	52 -> 54 [color=black]
+	38 -> 55 [color=black]
+	52 -> 55 [color=black]
+	55 -> 56 [color=black]
+	38 -> 57 [color=black]
+	55 -> 57 [color=black]
+	57 -> 59 [color=black]
+	59 -> 60 [color=red]
+	44 -> 61 [color=black]
+	60 -> 61 [color=black]
+	52 -> 63 [color=black]
+	63 -> 64 [color=red]
+	64 -> 65 [color=black]
+	61 -> 65 [color=black]
+	65 -> 67 [color=black]
+	67 -> 68 [color=red]
+	68 -> 69 [color=black]
+	55 -> 69 [color=black]
+	69 -> 71 [color=black]
+	caching_plan [label="
+Recommended Schedule:
+
+Cache RDD[10] at stage(2) in job(0)
+
+Cache RDD[17] at stage(2) in job(0)
+
+Cache RDD[21] at stage(2) in job(0)
+
+Cache RDD[13] at stage(4) in job(0)
+
+Cache RDD[19] at stage(4) in job(0)
+
+Cache RDD[27] at stage(4) in job(0)
+
+Unpersist RDD[13] after stage(4) in job(0)
+
+Unpersist RDD[19] after stage(4) in job(0)
+
+Cache RDD[35] at stage(5) in job(0)
+
+Unpersist RDD[10] after stage(5) in job(0)
+
+Unpersist RDD[17] after stage(5) in job(0)
+
+Cache RDD[38] at stage(12) in job(1)
+
+Unpersist RDD[35] after stage(12) in job(1)
+
+Unpersist RDD[21] after stage(12) in job(1)
+
+Cache RDD[44] at stage(13) in job(1)
+
+Unpersist RDD[27] after stage(13) in job(1)
+
+Cache RDD[52] at stage(14) in job(1)
+
+Cache RDD[55] at stage(23) in job(2)
+
+Unpersist RDD[52] after stage(24) in job(2)
+
+Unpersist RDD[38] after stage(24) in job(2)
+
+Cache RDD[61] at stage(25) in job(2)
+
+Unpersist RDD[61] after stage(25) in job(2)
+
+Unpersist RDD[44] after stage(25) in job(2)
+
+Cache RDD[69] at stage(26) in job(2)
+
+Unpersist RDD[69] after stage(26) in job(2)
+
+Cache RDD[56] at stage(35) in job(3)
+
+Unpersist RDD[56] after stage(35) in job(3)
+
+Unpersist RDD[55] after stage(35) in job(3)
+
+" fillcolor=lightgray shape=note style=filled]
+	memory_footprint [label="
+Memory Footprint:
+
+{10}
+
+{17, 10}
+
+{17, 10, 21}
+
+{17, 10, 13, 21}
+
+{17, 19, 21, 10, 13}
+
+{17, 19, 21, 10, 27, 13}
+
+{17, 19, 21, 10, 27}
+
+{17, 10, 27, 21}
+
+{17, 35, 21, 10, 27}
+
+{27, 17, 35, 21}
+
+{27, 35, 21}
+
+{27, 35, 21, 38}
+
+{27, 21, 38}
+
+{27, 38}
+
+{27, 44, 38}
+
+{44, 38}
+
+{44, 38, 52}
+
+{44, 55, 38, 52}
+
+{44, 38, 55}
+
+{44, 55}
+
+{44, 61, 55}
+
+{44, 55}
+
+{55}
+
+{69, 55}
+
+{55}
+
+{56, 55}
+
+{55}
+
+Free
+
+" fillcolor=lightgray shape=note style=filled]
+	labelloc=t
+	label="SSSPExample$"
+	fontsize=40
+}
