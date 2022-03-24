@@ -1,0 +1,143 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	5 [label="[5] " fillcolor=white style=filled]
+	3 [label="[3] " fillcolor=white style=filled]
+	0 [label="[0] " fillcolor=white style=filled]
+	4 [label="[4] " fillcolor=green style=filled]
+	2 [label="[2] " fillcolor=white style=filled]
+	1 [label="[1] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	5 -> Action_0 [arrowhead=none color=black style=dashed]
+	9 [label="[9] " fillcolor=white style=filled]
+	7 [label="[7] " fillcolor=green style=filled]
+	6 [label="[6] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	9 -> Action_1 [arrowhead=none color=black style=dashed]
+	10 [label="[10] " fillcolor=white style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	10 -> Action_2 [arrowhead=none color=black style=dashed]
+	13 [label="[13] " fillcolor=white style=filled]
+	11 [label="[11] " fillcolor=white style=filled]
+	12 [label="[12] " fillcolor=white style=filled]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	13 -> Action_3 [arrowhead=none color=black style=dashed]
+	14 [label="[14] " fillcolor=green style=filled]
+	Action_4 [label="[4]" fillcolor=lightblue shape=circle style=filled]
+	14 -> Action_4 [arrowhead=none color=black style=dashed]
+	15 [label="[15] " fillcolor=white style=filled]
+	Action_5 [label="[5]" fillcolor=lightblue shape=circle style=filled]
+	15 -> Action_5 [arrowhead=none color=black style=dashed]
+	16 [label="[16] " fillcolor=white style=filled]
+	Action_6 [label="[6]" fillcolor=lightblue shape=circle style=filled]
+	16 -> Action_6 [arrowhead=none color=black style=dashed]
+	17 [label="[17] " fillcolor=white style=filled]
+	Action_7 [label="[7]" fillcolor=lightblue shape=circle style=filled]
+	17 -> Action_7 [arrowhead=none color=black style=dashed]
+	18 [label="[18] " fillcolor=white style=filled]
+	Action_8 [label="[8]" fillcolor=lightblue shape=circle style=filled]
+	18 -> Action_8 [arrowhead=none color=black style=dashed]
+	19 [label="[19] " fillcolor=white style=filled]
+	Action_9 [label="[9]" fillcolor=lightblue shape=circle style=filled]
+	19 -> Action_9 [arrowhead=none color=black style=dashed]
+	20 [label="[20] " fillcolor=white style=filled]
+	Action_10 [label="[10]" fillcolor=deepskyblue4 shape=doublecircle style=filled]
+	20 -> Action_10 [arrowhead=none color=black style=dashed]
+	48 [label="[48] " fillcolor=white style=filled]
+	8 [label="[8] " fillcolor=white style=filled]
+	47 [label="[47] " fillcolor=white style=filled]
+	49 [label="[49] " fillcolor=white style=filled]
+	Action_37 [label="[37]" fillcolor=lightblue shape=circle style=filled]
+	49 -> Action_37 [arrowhead=none color=black style=dashed]
+	51 [label="[51] " fillcolor=white style=filled]
+	50 [label="[50] " fillcolor=white style=filled]
+	Action_38 [label="[38]" fillcolor=lightblue shape=circle style=filled]
+	51 -> Action_38 [arrowhead=none color=black style=dashed]
+	54 [label="[54] " fillcolor=white style=filled]
+	53 [label="[53] " fillcolor=white style=filled]
+	52 [label="[52] " fillcolor=white style=filled]
+	55 [label="[55] " fillcolor=white style=filled]
+	Action_39 [label="[39]" fillcolor=lightblue shape=circle style=filled]
+	55 -> Action_39 [arrowhead=none color=black style=dashed]
+	59 [label="[59] " fillcolor=white style=filled]
+	58 [label="[58] " fillcolor=white style=filled]
+	Action_40 [label="[40]" fillcolor=lightblue shape=circle style=filled]
+	59 -> Action_40 [arrowhead=none color=black style=dashed]
+	61 [label="[61] " fillcolor=white style=filled]
+	60 [label="[60] " fillcolor=white style=filled]
+	Action_41 [label="[41]" fillcolor=lightblue shape=circle style=filled]
+	61 -> Action_41 [arrowhead=none color=black style=dashed]
+	64 [label="[64] " fillcolor=white style=filled]
+	63 [label="[63] " fillcolor=white style=filled]
+	62 [label="[62] " fillcolor=white style=filled]
+	Action_42 [label="[42]" fillcolor=lightblue shape=circle style=filled]
+	64 -> Action_42 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	3 -> 4 [color=black]
+	4 -> 5 [color=black]
+	4 -> 6 [color=black]
+	6 -> 7 [color=black]
+	6 -> 8 [color=black]
+	7 -> 9 [color=black]
+	7 -> 10 [color=black]
+	7 -> 11 [color=black]
+	11 -> 12 [color=black]
+	12 -> 13 [color=black]
+	7 -> 14 [color=black]
+	14 -> 15 [color=black]
+	14 -> 16 [color=black]
+	14 -> 17 [color=black]
+	14 -> 18 [color=black]
+	14 -> 19 [color=black]
+	14 -> 20 [color=black]
+	8 -> 47 [color=black]
+	47 -> 48 [color=black]
+	48 -> 49 [color=red]
+	50 -> 51 [color=black]
+	52 -> 53 [color=black]
+	53 -> 54 [color=black]
+	54 -> 55 [color=red]
+	58 -> 59 [color=black]
+	60 -> 61 [color=black]
+	62 -> 63 [color=black]
+	63 -> 64 [color=black]
+	caching_plan [label="
+Recommended Schedule:
+
+Cache RDD[4] at stage(0) in job(0)
+
+Cache RDD[7] at stage(1) in job(1)
+
+Cache RDD[14] at stage(4) in job(4)
+
+Unpersist RDD[7] after stage(4) in job(4)
+
+Unpersist RDD[14] after stage(36) in job(36)
+
+Unpersist RDD[4] after stage(37) in job(37)
+
+" fillcolor=lightgray shape=note style=filled]
+	memory_footprint [label="
+Memory Footprint:
+
+{4}
+
+{4, 7}
+
+{4, 14, 7}
+
+{4, 14}
+
+{4}
+
+Free
+
+" fillcolor=lightgray shape=note style=filled]
+	labelloc=t
+	label=LogisticRegressionWithLBFGSExample
+	fontsize=40
+}

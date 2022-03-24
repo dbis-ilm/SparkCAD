@@ -1,0 +1,48 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	5 [label="[5] " fillcolor=white style=filled]
+	3 [label="[3] " fillcolor=white style=filled]
+	0 [label="[0] " fillcolor=white style=filled]
+	4 [label="[4] " fillcolor=green style=filled]
+	2 [label="[2] " fillcolor=white style=filled]
+	1 [label="[1] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	5 -> Action_0 [arrowhead=none color=black style=dashed]
+	7 [label="[7] " fillcolor=white style=filled]
+	6 [label="[6] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	7 -> Action_1 [arrowhead=none color=black style=dashed]
+	8 [label="[8] " fillcolor=white style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	8 -> Action_2 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	3 -> 4 [color=black]
+	4 -> 5 [color=black]
+	4 -> 6 [color=black]
+	6 -> 7 [color=black]
+	6 -> 8 [color=black]
+	caching_plan [label="
+Recommended Schedule:
+
+Cache RDD[4] at stage(0) in job(0)
+
+Unpersist RDD[4] after stage(2) in job(2)
+
+" fillcolor=lightgray shape=note style=filled]
+	memory_footprint [label="
+Memory Footprint:
+
+{4}
+
+Free
+
+" fillcolor=lightgray shape=note style=filled]
+	labelloc=t
+	label=NormalizerExample
+	fontsize=40
+}

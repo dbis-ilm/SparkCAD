@@ -1,0 +1,12 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	0 [label="[0] " fillcolor=white style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	0 -> Action_0 [arrowhead=none color=black style=dashed]
+	labelloc=t
+	label=KernelDensityEstimationExample
+	fontsize=40
+}

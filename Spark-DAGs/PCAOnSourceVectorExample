@@ -1,0 +1,32 @@
+// Spark-Application-Graph
+strict digraph {
+	node [shape=plaintext]
+	edge [arrowhead=normal arrowsize=1]
+	node [label="this is graph" shape=cylinder]
+	1 [label="[1] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	0 [label="[0] " color=red fillcolor=white penwidth=3 shape=cylinder style=filled]
+	Action_0 [label="[0]" fillcolor=lightblue shape=circle style=filled]
+	1 -> Action_0 [arrowhead=none color=black style=dashed]
+	Action_1 [label="[1]" fillcolor=lightblue shape=circle style=filled]
+	1 -> Action_1 [arrowhead=none color=black style=dashed]
+	3 [label="[3] " fillcolor=white style=filled]
+	2 [label="[2] " fillcolor=white style=filled]
+	Action_2 [label="[2]" fillcolor=lightblue shape=circle style=filled]
+	3 -> Action_2 [arrowhead=none color=black style=dashed]
+	Action_3 [label="[3]" fillcolor=lightblue shape=circle style=filled]
+	1 -> Action_3 [arrowhead=none color=black style=dashed]
+	4 [label="[4] " fillcolor=white style=filled]
+	Action_4 [label="[4]" fillcolor=lightblue shape=circle style=filled]
+	4 -> Action_4 [arrowhead=none color=black style=dashed]
+	5 [label="[5] " fillcolor=white style=filled]
+	Action_5 [label="[5]" fillcolor=lightblue shape=circle style=filled]
+	5 -> Action_5 [arrowhead=none color=black style=dashed]
+	0 -> 1 [color=black]
+	1 -> 2 [color=black]
+	2 -> 3 [color=black]
+	1 -> 4 [color=black]
+	0 -> 5 [color=black]
+	labelloc=t
+	label=PCAOnSourceVectorExample
+	fontsize=40
+}
