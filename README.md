@@ -5,7 +5,7 @@ SparkCAD (Spark Caching Anomalies Detector): Logical plan visualization and cach
 * Contents:
   1. Overview
   2. Requirements
-  3. Orgenization
+  3. Organization
 
 ---
 ### OVERVIEW ###
@@ -18,7 +18,7 @@ It parses the execution logs of Spark (thse same ones that Spark's History Serve
  * [Jupyter](https://jupyter.org/)
  * [Graphviz](https://graphviz.readthedocs.io/en/stable/manual.html)
 
-### Orgenization ###
+### Organization ###
 
 Samples of 130 execution logs could be found in "logs" folder.
 The produced logical plans are stored by default in "Spark-DAGs".
