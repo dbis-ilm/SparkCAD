@@ -1,5 +1,5 @@
 # SparkCAD
-SparkCAD (Spark Caching Anomalies Detector): Logical plan visualization and caching anomalies detection tool.
+SparkCAD (Spark Caching Anomalies Detector): Logical plan visualization and caching anomalies detection tool for Apache Spark applications.
 
 * Current version: 1.0
 * Contents:
